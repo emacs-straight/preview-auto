@@ -123,8 +123,13 @@
   │   (setq preview-leave-open-previews-visible t)
   │   :custom
   │   (preview-auto-interval 0.1)
-  │   (preview-LaTeX-command-replacements
-  │    '(preview-LaTeX-disable-pdfoutput)))  
+  │ 
+  │   ;; Uncomment the following only if you have followed the above
+  │   ;; instructions concerning, e.g., hyperref:
+  │ 
+  │   ;; (preview-LaTeX-command-replacements
+  │   ;;  '(preview-LaTeX-disable-pdfoutput))
+  │   )
   └────
 
   My precise current setup may be found in [the LaTeX part of my config]
