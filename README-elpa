@@ -134,12 +134,10 @@
   │   )
   └────
 
-  My precise current setup may be found in [the LaTeX part of my config]
-  (`elpaca' branch).
+  My precise current setup may be found in [my config].
 
 
-[the LaTeX part of my config]
-<https://github.com/ultronozm/emacsd/blob/main/init-latex.el>
+[my config] <https://github.com/ultronozm/emacsd/blob/main/init.el>
 
 
 2.5 Non-file buffers and other modes
