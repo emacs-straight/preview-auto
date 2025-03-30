@@ -186,9 +186,9 @@
   If you want `preview-auto-mode' to preview such environments
   automatically (including when they are not wrapped in some math
   environment), then you should add "tikzpicture" to the customizable
-  list variable `preview-auto--extra-environments', e.g., by putting
+  list variable `preview-auto-extra-environments', e.g., by putting
   ┌────
-  │ (add-to-list 'preview-auto--extra-environments "tikzpicture")
+  │ (add-to-list 'preview-auto-extra-environments "tikzpicture")
   └────
   in your config.  I keep this disabled by default because of the extra
   setup required in the document preamble, without which `preview-latex'
