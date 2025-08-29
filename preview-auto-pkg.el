@@ -1,2 +1,2 @@
-;; Generated package description from mode: lisp-data; .el  -*- preview-autono-byte-compile: t -*-
-(define-package "preview-auto" "0.4.0.20241203.135521" "Automatic previews in AUCTeX" '((emacs "29.3") (auctex "14.0.5")) :commit "db0deb17f5ff8b20ee86056e179c8b875f37042d" :authors '(("Paul D. Nelson" . "nelson.paul.david@gmail.com")) :maintainer '("Paul D. Nelson" . "nelson.paul.david@gmail.com") :keywords '("tex" "convenience") :url "https://github.com/ultronozm/preview-auto.el")
+;; Generated package description from preview-auto.el  -*- mode: lisp-data; no-byte-compile: t -*-
+(define-package "preview-auto" "0.4.0.20250828.151457" "Automatic previews in AUCTeX" '((emacs "29.3") (auctex "14.0.5")) :commit "cc88fe7b2e96992bdc7775644344f58675106669" :authors '(("Paul D. Nelson" . "nelson.paul.david@gmail.com")) :maintainer '("Paul D. Nelson" . "nelson.paul.david@gmail.com") :keywords '("tex" "convenience") :url "https://github.com/ultronozm/preview-auto.el")
