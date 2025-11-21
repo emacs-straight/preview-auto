@@ -23,12 +23,11 @@
 
   AUCTeX provides commands for generating previews in various regions:
   the current section, the entire document, the marked region, and so
-  on.  While these previews generate, you're not supposed to edit while
-  the previews generate, because that can mess up their positioning.  A
-  typical workflow is thus to run the command `preview-section' (`C-c
-  C-p C-s') every few minutes, during pauses in editing.  This
-  introduces a bit of overhead if you prefer to have previews on by
-  default.
+  on.  While these previews generate, you're not supposed to edit them,
+  because that can mess up their positioning.  A typical workflow is
+  thus to run the command `preview-section' (`C-c C-p C-s') every few
+  minutes, during pauses in editing.  This introduces a bit of overhead
+  if you prefer to have previews on by default.
 
   This package provides a minor mode, `preview-auto-mode', toggled via
   the command `M-x preview-auto-mode', the keybinding `C-c C-p C-a', or
