@@ -92,6 +92,14 @@
   ┌────
   │ (setq preview-LaTeX-command-replacements '(preview-LaTeX-disable-pdfoutput))
   └────
+  On some systems, especially stable-release distributions such as
+  Debian, the DVI workflow can be more robust if `preview-latex'
+  converts DVI files directly to PNG files with `dvipng' instead of
+  using Ghostscript.  After installing `dvipng', use:
+  ┌────
+  │ (setq preview-image-type 'dvi*)
+  │ (setq preview-dvi*-image-type 'png)
+  └────
   If you use a package such as `hyperref' that works only with PDF's,
   then you should replace `\usepackage{hyperref}' in your TeX file with
   something like the following:
@@ -134,6 +142,11 @@
   │ 
   │   ;; (preview-LaTeX-command-replacements
   │   ;;  '(preview-LaTeX-disable-pdfoutput))
+  │ 
+  │   ;; If you have installed dvipng and want to avoid Ghostscript in the
+  │   ;; DVI workflow:
+  │   ;; (preview-image-type 'dvi*)
+  │   ;; (preview-dvi*-image-type 'png)
   │   )
   └────
 
